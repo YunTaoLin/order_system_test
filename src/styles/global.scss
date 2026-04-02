@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background-color: $bg-page;
+  font-family: $font-family;
+  color: $text-color;
+}
+
+.ant-tabs-nav {
+  padding: 0 24px !important;
+  margin-bottom: 24px !important;
+  background: $bg-white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: $shadow-sm;
+}
+
+.ant-modal-content {
+  border-radius: $radius-lg !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.ant-modal-header {
+  padding: 24px;
+  border-bottom: 1px solid #f3f4f6;
+  margin-bottom: 0 !important;
+}
+
+.ant-modal-body {
+  padding: 24px;
+}
+
+.ant-modal-close {
+  top: 16px !important;
+}
+
+.page-container {
+  padding: 0 24px 80px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.bento-collapse.ant-collapse {
+  background: transparent;
+  border: none;
+
+  > .ant-collapse-item {
+    border: 1px solid $warning-border;
+    border-radius: $radius-md !important;
+    overflow: hidden;
+    margin-bottom: 16px;
+    background: $bg-white;
+
+    > .ant-collapse-header {
+      background-color: $warning-bg !important;
+      align-items: center !important;
+      padding: 16px !important;
+    }
+  }
+}
